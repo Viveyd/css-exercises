@@ -23,3 +23,24 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+/* Solution */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+}
+
+.left-links li{
+  margin-right: 2em;
+}
+
+.right-links li{
+  margin-left: 2em;
+}
