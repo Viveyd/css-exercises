@@ -24,3 +24,26 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* Solution */
+.title{
+  text-align: center;
+  margin-bottom: 1em;
+}
+ul{
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  justify-content: center;
+}
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  text-align: center;
+  margin-left: 3em;
+}
+.link-1{
+  margin: 0;
+}
